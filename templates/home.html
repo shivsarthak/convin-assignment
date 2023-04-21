@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convin Task</title>
+</head>
+<body>
+    <h1>Convin Hiring</h1>
+    <h3>Google Calendar Integration</h3>
+    <h5>Developed By: Shiv Sarthak Sabhlok</h5>
+    <h5>mail@shivsartha.com</h5>
+    <p>To get started, please click the button below to authenticate with Google:</p>
+    <form action="{% url 'google_calendar_init' %}">
+        <input type="submit" value="Go to Endpoint">
+        <label>/rest/v1/calendar/init </label>
+    </form>
+</body>
+</html>
